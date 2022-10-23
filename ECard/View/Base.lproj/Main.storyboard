@@ -995,7 +995,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="imS-XT-xUK">
                                         <rect key="frame" x="18.666666666666657" y="65" width="393" height="288"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 3" translatesAutoresizingMaskIntoConstraints="NO" id="feh-E6-eh1">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 3" translatesAutoresizingMaskIntoConstraints="NO" id="feh-E6-eh1">
                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="288"/>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="nAr-CE-BpD">
@@ -1168,12 +1168,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vns-cj-M0O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4532" y="589"/>
+            <point key="canvasLocation" x="4530.6976744186049" y="588.41201716738203"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="giD-22-h03"/>
-        <segue reference="h6I-Sp-uZI"/>
+        <segue reference="5cr-fZ-dWf"/>
+        <segue reference="sJx-Tu-PJc"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Rectangle 3" width="393" height="288"/>
