@@ -198,6 +198,11 @@ class ViewController: UIViewController, ConnectionManagerDelegate, UITextFieldDe
             destination.accountManager = self.accountManager
             destination.currentValue = self.accountManager?.getCurrentUserProfile()?.profileDetail.value(forKey: key) as? String
         }
+        else if (segue.identifier == "showSetting") {
+            let destination = segue.destination as! SettingsViewController
+            
+            destination.accountManager = self.accountManager
+        }
     }
     
     @IBAction func logOutButtonPressed(_ sender: UIButton) {
